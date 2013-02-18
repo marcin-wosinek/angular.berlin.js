@@ -76,13 +76,106 @@
 </li>
 <li>Plain js object</li>
 <li>Dependency injection</li>
-<li>TESABILITY!</li>
+<li>TESTABILITY!</li>
 <li>Directives</li>
 <li>Declarative programming</li>
-</ul><pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+</ul><h3>MVVM architecture</h3>
+
+<ul>
+<li>plain js models</li>
+<li>dirty checking - but object.observer is comming</li>
+</ul><h3>Dependency injection</h3>
+
+<ul>
+<li>increase testablity</li>
+<li>nice sumarize interconnections between parts of aplication</li>
+</ul><h3>Directives</h3>
+
+<ul>
+<li>tools to teach html new tricks
+
+<ul>
+<li>binding controller</li>
+<li>loops</li>
+<li>binding models</li>
+</ul>
+</li>
+<li>or bing back old ones</li>
+<li>No dom manipulation in controler</li>
+</ul><h3>Declarative programming</h3>
+
+<ul>
+<li>What we have in html, css now is in js as well</li>
+</ul><h3>TESABILITY!</h3>
+
+<ul>
+<li>Dependency injection</li>
+<li>Directives</li>
+<li>simple plain old js objects as models</li>
+</ul><h3>Doubt</h3>
+
+<ul>
+<li>for some even deal breakers</li>
+</ul><h3>html validator are going to hate it</h3>
+
+<ul>
+<li>those tags are invalide
+<code>html
+&lt;tabs&gt;
+&lt;pane title="Localization"&gt;
+</code>
+</li>
+<li>those atributs are invalide
+<code>html
+&lt;li ng-repeat="todo in todos"&gt;
+&lt;input type="text" ng-model="todoText" /&gt;
+</code>
+</li>
+<li>and this little guy was purpouse fully removed from html
+<code>html
+&lt;blink&gt;&lt;/blink&gt;
+</code>
+</li>
+</ul><h3>Back to 90's?</h3>
+
+<ul>
+<li>angular uses proprietery tags, allow us to create own, and expect us to write stuff like this:
+<code>html
+&lt;form ng-submit="addTodo()"&gt;
+&lt;button ng-click="fireAlert()"&gt;
+</code>
+</li>
+</ul><h3>No - it's our future</h3>
+
+<ul>
+<li>web components</li>
+<li>shadow dom </li>
+</ul><p>Will be native apis. Now we can get some of benefits with angular.
+All is safly separeted into scopes.</p>
+
+<h3>Yeoman</h3>
+
+<ul>
+<li>CLI</li>
+<li>cool tool to creating code</li>
+<li>push changes form server to broswer - no refreshing</li>
+</ul><h3>Switching to AngularJs</h3>
+
+<ul>
+<li>Is possible:)</li>
+<li>Goes well allong with jquery</li>
+<li>There is a project to rewrite bootstrap js to angular directives <a href="http://angular-ui.github.com/bootstrap/" title="angular-ui-bootstrap">angular-ui-bootstrap</a>
+</li>
+<li>They say it is possible to use it along with require.js <a href="https://github.com/elsom25/angular-requirejs-html5boilerplate-seed" title="angular-require-js">angular-require-js</a>
+</li>
+</ul><h3>How to catch me</h3>
+
+<ul>
+<li><a href="mailto:marcin.wosinek@gmail.com">marcin.wosinek@gmail.com</a></li>
+<li>#marcin.wosinek</li>
+<li>write up and links:</li>
+<li><a href="http://marcin-wosinek.github.com/angular.berlin.js">http://marcin-wosinek.github.com/angular.berlin.js</a></li>
+</ul>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/marcin-wosinek">marcin-wosinek</a></p>
