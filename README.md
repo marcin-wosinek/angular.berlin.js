@@ -13,7 +13,6 @@
 * Who was already working with angular?
 * Who likes having unit tests?
 * Who is using yeoman?
-* Who is going to ask questions?
 
 ### What is AngularJs
 
