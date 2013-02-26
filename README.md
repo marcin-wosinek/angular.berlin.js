@@ -225,6 +225,8 @@ All is safly separeted into scopes.
 ### Want to give it a try?
 * I've prepared vbox for you with dev env
 * Full machine https://docs.google.com/folder/d/0Bzhquk4DfXAtYUhKNlJhb01jaEk/edit?usp=sharing - based on ubuntu server
+ * user: developer
+ * pass: developer
 * Install script https://github.com/marcin-wosinek/angular-dev
 
 ### How to start with angular?
