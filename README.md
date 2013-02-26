@@ -1,5 +1,5 @@
 ### AngularJs
-## apps.berlin.js 28 II February 2013
+## apps.berlin.js 28 February 2013
 
 ### Who am I?
 * Marcin Wosinak
@@ -8,7 +8,7 @@
   * C# dev: UnitTests
 * Currently js contractor in Poznań, Poland
 
-### Who are you?
+### You?
 
 * Who was already working with angular?
 * Who likes having unit tests?
@@ -193,6 +193,11 @@ expect(scope.strength).toEqual('weak');
 <button ng-click="fireAlert()">
 ```
 
+### Not proper tags
+* all directives: tags and attributes
+* for attributes there is data-\* or x-\* version
+* tag directives needs shim for ie8
+
 ### No - it's our future
 * web components
 * shadow dom 
@@ -228,6 +233,9 @@ All is safly separeted into scopes.
 * Goes well allong with jquery
 * There is a project to rewrite bootstrap js to angular directives [angular-ui-bootstrap] [2]
 * They say it is possible to use it along with require.js [angular-require-js] [3]
+
+### Questions?
+* If our css doesn't go well with ng-show and ng-hide give try with ui-if from angular-ui
 
 ### How to catch me
 * marcin.wosinek@gmail.com
